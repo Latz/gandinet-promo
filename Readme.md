@@ -1,14 +1,14 @@
-== Gandi.net Promotion Checker
+# Gandi.net Promotion Checker
 
 If you want to check, if you're desired domain is on discount on Gandi.net, or just check what's avaialble for a reasonable price, this script will affordlessly check for them.
 
-== Usage
+## Usage
 The script's main (asynchromous) function is `gandiNetPromos()`, which will return an array of Javascript objects containing the following information:
 * tld: the discounted top level domain
 * normalPrice: the normal price of the domain
 * promoPrice: the discounted price of the domain
 
-== Example
+## Example
 ```javascript
 const promoTLDs = require('./gandinet');
 
