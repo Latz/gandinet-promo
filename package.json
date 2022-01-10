@@ -1,0 +1,23 @@
+{
+  "name": "gandinet-promo",
+  "version": "1.0.0",
+  "description": "If you want to check, if you're desired domain is on discount on Gandi.net, or just check what's avaialble for a reasonable price, this script will affordlessly check for them.",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Latz/gandinet-promo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Latz/gandinet-promo/issues"
+  },
+  "homepage": "https://github.com/Latz/gandinet-promo#readme",
+  "dependencies": {
+    "jsdom": "^19.0.0",
+    "node-fetch": "^3.1.0"
+  }
+}
